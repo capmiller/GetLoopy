@@ -1,0 +1,37 @@
+public class Task5thru7
+{
+    public static void main(String[] args) {
+        //Task 5
+        for ( int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j <= i; j++)
+            {
+                System.out.print("*" + " ");
+            }
+            System.out.println();
+
+        }
+        // Task 6
+        for ( int i = 0; i < 5; i ++)
+        {
+            for (int j = i; j < 5; j++)
+            {
+                System.out.print("*" + " ");
+            }
+            System.out.println();
+
+        }
+        // Task 7
+        for ( int i = 0; i < 5; i ++)
+        {
+            for (int j = 0; j < 5; j++)
+            {
+                System.out.print("*" + " ");
+            }
+            System.out.println();
+        }
+
+
+
+    }
+}
